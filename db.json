@@ -1,9 +1,1824 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "imageMarketplease": [
+    {
+      "id": 1,
+      "image": "/images/storefront.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+
+  "explore": [
+    { "id": 1, "title": " NFT Marketplace", "href": "/" },
+    { "id": 2, "title": "Marketplace", "href": "/market-please" },
+    { "id": 3, "title": "Rankings", "href": "/rankings" },
+    { "id": 4, "title": "Connect a wallet", "href": "/connect" },
+    {
+      "id": 5,
+      "title": "Sign Up",
+      "href": "/sign-up",
+      "images": "/images/user.svg"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "statistics": [
+    {
+      "id": 1,
+      "title": "Total Sales",
+      "count": "240k+"
+    },
+    {
+      "id": 2,
+      "title": "Auctions",
+      "count": "100k+"
+    },
+    {
+      "id": 3,
+      "title": "Artists",
+      "count": "240k+"
+    }
+  ],
+  "trendingCollection": [
+    {
+      "id": 1,
+      "collections": "/images/animals.svg",
+      "title": "DSGN Animals",
+      "avatar": "/images/mrFox.svg",
+      "avatarName": "MrFox"
+    },
+    {
+      "id": 2,
+      "collections": "/images/mushrooms.svg",
+      "title": "Magic Mushrooms",
+      "avatar": "/images/shoormie.svg",
+      "avatarName": "Shroomie"
+    },
+    {
+      "id": 3,
+      "collections": "/images/machines.svg",
+      "title": "Disco Machines",
+      "avatar": "/images/beKind2Robots.svg",
+      "avatarName": "BeKind2Robots"
+    }
+  ],
+  "topCreators": [
+    {
+      "id": 1,
+      "count": 1,
+      "avatar": "/images/keepitreal.svg",
+      "username": "Keepitreal",
+      "price": 34.53
+    },
+    {
+      "id": 2,
+      "count": 2,
+      "avatar": "/images/digiLab.svg",
+      "username": "DigiLab",
+      "price": 34.53
+    },
+    {
+      "id": 3,
+      "count": 3,
+      "avatar": "/images/gravityOne.svg",
+      "username": "GravityOne",
+      "price": 34.53
+    },
+    {
+      "id": 4,
+      "count": 4,
+      "avatar": "/images/juanie.svg",
+      "username": "Juanie",
+      "price": 34.53
+    },
+    {
+      "id": 5,
+      "count": 5,
+      "avatar": "/images/blueWhale.svg",
+      "username": "BlueWhale",
+      "price": 34.53
+    },
+    {
+      "id": 6,
+      "count": 6,
+      "avatar": "/images/foxMister.png",
+      "username": "Mr fox",
+      "price": 34.53
+    },
+    {
+      "id": 7,
+      "count": 7,
+      "avatar": "/images/shroomie2.svg",
+      "username": "Shroomie",
+      "price": 34.53
+    },
+    {
+      "id": 8,
+      "count": 8,
+      "avatar": "/images/robotica.svg",
+      "username": "Robotica",
+      "price": 34.53
+    },
+    {
+      "id": 9,
+      "count": 9,
+      "avatar": "/images/rustyRobot2.svg",
+      "username": "RustyRobot",
+      "price": 34.53
+    },
+    {
+      "id": 10,
+      "count": 10,
+      "avatar": "/images/animakid2.svg",
+      "username": "Animakid",
+      "price": 34.53
+    },
+    {
+      "id": 11,
+      "count": 11,
+      "avatar": "/images/dotgu.svg",
+      "username": "Dotgu",
+      "price": 34.53
+    },
+    {
+      "id": 12,
+      "count": 12,
+      "avatar": "/images/ghiblier.svg",
+      "username": "Ghiblier",
+      "price": 34.53
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "images": "/images/categoryIconBg.svg",
+      "iconHover": "/images/categoryhoverIcon.svg",
+      "title": "Art"
+    },
+    {
+      "id": 2,
+      "images": "/images/categoryIconBg2.svg",
+      "iconHover": "/images/categoryhoverIcon2.svg",
+      "title": "Collectibles"
+    },
+    {
+      "id": 3,
+      "images": "/images/categoryIconBg3.svg",
+      "iconHover": "/images/categoryhoverIcon3.svg",
+      "title": "Music"
+    },
+    {
+      "id": 4,
+      "images": "/images/categoryIconBg4.svg",
+      "iconHover": "/images/categoryhoverIcon4.svg",
+      "title": "Photography"
+    },
+    {
+      "id": 5,
+      "images": "/images/categoryIconBg5.svg",
+      "iconHover": "/images/categoryhoverIcon5.svg",
+      "title": "Video"
+    },
+    {
+      "id": 6,
+      "images": "/images/categoryIconBg6.svg",
+      "iconHover": "/images/categoryhoverIcon6.svg",
+      "title": "Utility"
+    },
+    {
+      "id": 7,
+      "images": "/images/categoryIconBg7.png",
+      "iconHover": "/images/categoryhoverIcon7.svg",
+      "title": "Sport"
+    },
+    {
+      "id": 8,
+      "images": "/images/categoryIconBg8.png",
+      "iconHover": "/images/categoryhoverIcon8.svg",
+      "title": "Virtual Worlds"
+    }
+  ],
+  "discoverMore": [
+    {
+      "id": 1,
+      "images": "/images/discoverMore.svg",
+      "title": "Distant Galaxy",
+      "icons": "/images/icon.svg",
+      "user": "MoonDancer",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.72,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 2,
+      "images": "/images/discoverMore2.svg",
+      "title": "Life On Edena",
+      "icons": "/images/icon2.svg",
+      "user": "NebulaKid",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.81,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 3,
+      "images": "/images/discoverMore3.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 4,
+      "images": "/images/artist_page4.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 5,
+      "images": "/images/artist_page5.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 6,
+      "images": "/images/artist_page6.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 7,
+      "images": "/images/artist_page7.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 8,
+      "images": "/images/artist_page8.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 9,
+      "images": "/images/categoryIconBg2.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    }
+  ],
+  "howItWorksIcon": [
+    {
+      "id": 1,
+      "images": "/images/howItWorksIcon.svg",
+      "title": "Setup Your wallet",
+      "text": "Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner."
+    },
+    {
+      "id": 2,
+      "images": "/images/howItWorksIcon2.svg",
+      "title": "Create Collection",
+      "text": "Upload your work and setup your collection. Add a description , social links and floor price."
+    },
+    {
+      "id": 3,
+      "images": "/images/howItWorksIcon3.svg",
+      "title": "Start Earning",
+      "text": "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
+    }
+  ],
+  "footerLogo": [
+    {
+      "id": 1,
+      "href": "https://discord.com/",
+      "icons": "/images/globe.svg"
+    },
+    {
+      "id": 2,
+      "href": "https://discord.com/",
+      "icons": "/images/discordLogo.svg"
+    },
+    {
+      "id": 3,
+      "href": "https://www.youtube.com/account",
+      "icons": "/images/youtubeLogo.svg"
+    },
+    {
+      "id": 4,
+      "href": "https://twitter.com/",
+      "icons": "/images/twitterLogo.svg"
+    },
+    {
+      "id": 5,
+      "href": "https://www.instagram.com/accounts/emailsignup/",
+      "icons": "/images/instagramLogo.svg"
+    }
+  ],
+  "rankings": [
+    {
+      "value": "1",
+      "label": "Today",
+      "desc": [
+        {
+          "id": 1,
+          "count": 1,
+          "avatar": "/images/rankingsAvatar.svg",
+          "name": "Jaydon Ekstrom",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 2,
+          "count": 2,
+          "avatar": "/images/rankingsAvatar2.svg",
+          "name": "Ruben Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 3,
+          "count": 3,
+          "avatar": "/images/rankingsAvatar3.svg",
+          "name": "Alfredo Septimus",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 4,
+          "count": 4,
+          "avatar": "/images/rankingsAvatar4.svg",
+          "name": "Davis Franci",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 5,
+          "count": 5,
+          "avatar": "/images/rankingsAvatar5.svg",
+          "name": "Livia Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 6,
+          "count": 6,
+          "avatar": "/images/rankingsAvatar6.svg",
+          "name": "Kianna Donin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 7,
+          "count": 7,
+          "avatar": "/images/rankingsAvatar7.svg",
+          "name": "Phillip Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 8,
+          "count": 8,
+          "avatar": "/images/rankingsAvatar8.svg",
+          "name": "Maria Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 9,
+          "count": 9,
+          "avatar": "/images/rankingsAvatar9.svg",
+          "name": "Kianna Stanton",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 10,
+          "count": 10,
+          "avatar": "/images/rankingsAvatar10.svg",
+          "name": "Angel Lubin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 11,
+          "count": 11,
+          "avatar": "/images/rankingsAvatar11.svg",
+          "name": "Allison Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 12,
+          "count": 12,
+          "avatar": "/images/rankingsAvatar12.svg",
+          "name": "Davis Workman",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 13,
+          "count": 13,
+          "avatar": "/images/rankingsAvatar13.svg",
+          "name": "Lindsey Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 14,
+          "count": 14,
+          "avatar": "/images/rankingsAvatar14.svg",
+          "name": "Randy Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 15,
+          "count": 15,
+          "avatar": "/images/rankingsAvatar15.svg",
+          "name": "Lydia Culhane",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 16,
+          "count": 16,
+          "avatar": "/images/rankingsAvatar16.svg",
+          "name": "Rayna Bator",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 17,
+          "count": 17,
+          "avatar": "/images/rankingsAvatar17.svg",
+          "name": "Jocelyn Westervelt",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 18,
+          "count": 18,
+          "avatar": "/images/rankingsAvatar18.svg",
+          "name": "Marilyn Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 19,
+          "count": 19,
+          "avatar": "/images/rankingsAvatar19.svg",
+          "name": "Skylar Levin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 20,
+          "count": 20,
+          "avatar": "/images/rankingsAvatar20.svg",
+          "name": "Terry Dorwart",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        }
+      ]
+    },
+    {
+      "value": "2",
+      "label": "This Week",
+      "desc": [
+        {
+          "id": 1,
+          "count": 1,
+          "avatar": "/images/rankingsAvatar.svg",
+          "name": "Jaydon Ekstrom",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 2,
+          "count": 2,
+          "avatar": "/images/rankingsAvatar2.svg",
+          "name": "Ruben Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 3,
+          "count": 3,
+          "avatar": "/images/rankingsAvatar3.svg",
+          "name": "Alfredo Septimus",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 4,
+          "count": 4,
+          "avatar": "/images/rankingsAvatar4.svg",
+          "name": "Davis Franci",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 5,
+          "count": 5,
+          "avatar": "/images/rankingsAvatar5.svg",
+          "name": "Livia Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 6,
+          "count": 6,
+          "avatar": "/images/rankingsAvatar6.svg",
+          "name": "Kianna Donin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 7,
+          "count": 7,
+          "avatar": "/images/rankingsAvatar7.svg",
+          "name": "Phillip Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 8,
+          "count": 8,
+          "avatar": "/images/rankingsAvatar8.svg",
+          "name": "Maria Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 9,
+          "count": 9,
+          "avatar": "/images/rankingsAvatar9.svg",
+          "name": "Kianna Stanton",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 10,
+          "count": 10,
+          "avatar": "/images/rankingsAvatar10.svg",
+          "name": "Angel Lubin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 11,
+          "count": 11,
+          "avatar": "/images/rankingsAvatar11.svg",
+          "name": "Allison Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 12,
+          "count": 12,
+          "avatar": "/images/rankingsAvatar12.svg",
+          "name": "Davis Workman",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 13,
+          "count": 13,
+          "avatar": "/images/rankingsAvatar13.svg",
+          "name": "Lindsey Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 14,
+          "count": 14,
+          "avatar": "/images/rankingsAvatar14.svg",
+          "name": "Randy Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 15,
+          "count": 15,
+          "avatar": "/images/rankingsAvatar15.svg",
+          "name": "Lydia Culhane",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 16,
+          "count": 16,
+          "avatar": "/images/rankingsAvatar16.svg",
+          "name": "Rayna Bator",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 17,
+          "count": 17,
+          "avatar": "/images/rankingsAvatar17.svg",
+          "name": "Jocelyn Westervelt",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 18,
+          "count": 18,
+          "avatar": "/images/rankingsAvatar18.svg",
+          "name": "Marilyn Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 19,
+          "count": 19,
+          "avatar": "/images/rankingsAvatar19.svg",
+          "name": "Skylar Levin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 20,
+          "count": 20,
+          "avatar": "/images/rankingsAvatar20.svg",
+          "name": "Terry Dorwart",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        }
+      ]
+    },
+    {
+      "value": "3",
+      "label": "This Month",
+      "desc": [
+        {
+          "id": 1,
+          "count": 1,
+          "avatar": "/images/rankingsAvatar.svg",
+          "name": "Jaydon Ekstrom",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 2,
+          "count": 2,
+          "avatar": "/images/rankingsAvatar2.svg",
+          "name": "Ruben Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 3,
+          "count": 3,
+          "avatar": "/images/rankingsAvatar3.svg",
+          "name": "Alfredo Septimus",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 4,
+          "count": 4,
+          "avatar": "/images/rankingsAvatar4.svg",
+          "name": "Davis Franci",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 5,
+          "count": 5,
+          "avatar": "/images/rankingsAvatar5.svg",
+          "name": "Livia Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 6,
+          "count": 6,
+          "avatar": "/images/rankingsAvatar6.svg",
+          "name": "Kianna Donin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 7,
+          "count": 7,
+          "avatar": "/images/rankingsAvatar7.svg",
+          "name": "Phillip Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 8,
+          "count": 8,
+          "avatar": "/images/rankingsAvatar8.svg",
+          "name": "Maria Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 9,
+          "count": 9,
+          "avatar": "/images/rankingsAvatar9.svg",
+          "name": "Kianna Stanton",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 10,
+          "count": 10,
+          "avatar": "/images/rankingsAvatar10.svg",
+          "name": "Angel Lubin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 11,
+          "count": 11,
+          "avatar": "/images/rankingsAvatar11.svg",
+          "name": "Allison Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 12,
+          "count": 12,
+          "avatar": "/images/rankingsAvatar12.svg",
+          "name": "Davis Workman",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 13,
+          "count": 13,
+          "avatar": "/images/rankingsAvatar13.svg",
+          "name": "Lindsey Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 14,
+          "count": 14,
+          "avatar": "/images/rankingsAvatar14.svg",
+          "name": "Randy Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 15,
+          "count": 15,
+          "avatar": "/images/rankingsAvatar15.svg",
+          "name": "Lydia Culhane",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 16,
+          "count": 16,
+          "avatar": "/images/rankingsAvatar16.svg",
+          "name": "Rayna Bator",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 17,
+          "count": 17,
+          "avatar": "/images/rankingsAvatar17.svg",
+          "name": "Jocelyn Westervelt",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 18,
+          "count": 18,
+          "avatar": "/images/rankingsAvatar18.svg",
+          "name": "Marilyn Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 19,
+          "count": 19,
+          "avatar": "/images/rankingsAvatar19.svg",
+          "name": "Skylar Levin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 20,
+          "count": 20,
+          "avatar": "/images/rankingsAvatar20.svg",
+          "name": "Terry Dorwart",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        }
+      ]
+    },
+    {
+      "value": "4",
+      "label": "All Time",
+      "desc": [
+        {
+          "id": 1,
+          "count": 1,
+          "avatar": "/images/rankingsAvatar.svg",
+          "name": "Jaydon Ekstrom",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 2,
+          "count": 2,
+          "avatar": "/images/rankingsAvatar2.svg",
+          "name": "Ruben Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 3,
+          "count": 3,
+          "avatar": "/images/rankingsAvatar3.svg",
+          "name": "Alfredo Septimus",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 4,
+          "count": 4,
+          "avatar": "/images/rankingsAvatar4.svg",
+          "name": "Davis Franci",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 5,
+          "count": 5,
+          "avatar": "/images/rankingsAvatar5.svg",
+          "name": "Livia Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 6,
+          "count": 6,
+          "avatar": "/images/rankingsAvatar6.svg",
+          "name": "Kianna Donin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 7,
+          "count": 7,
+          "avatar": "/images/rankingsAvatar7.svg",
+          "name": "Phillip Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 8,
+          "count": 8,
+          "avatar": "/images/rankingsAvatar8.svg",
+          "name": "Maria Rosser",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 9,
+          "count": 9,
+          "avatar": "/images/rankingsAvatar9.svg",
+          "name": "Kianna Stanton",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 10,
+          "count": 10,
+          "avatar": "/images/rankingsAvatar10.svg",
+          "name": "Angel Lubin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 11,
+          "count": 11,
+          "avatar": "/images/rankingsAvatar11.svg",
+          "name": "Allison Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 12,
+          "count": 12,
+          "avatar": "/images/rankingsAvatar12.svg",
+          "name": "Davis Workman",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 13,
+          "count": 13,
+          "avatar": "/images/rankingsAvatar13.svg",
+          "name": "Lindsey Lipshutz",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 14,
+          "count": 14,
+          "avatar": "/images/rankingsAvatar14.svg",
+          "name": "Randy Carder",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 15,
+          "count": 15,
+          "avatar": "/images/rankingsAvatar15.svg",
+          "name": "Lydia Culhane",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 16,
+          "count": 16,
+          "avatar": "/images/rankingsAvatar16.svg",
+          "name": "Rayna Bator",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 17,
+          "count": 17,
+          "avatar": "/images/rankingsAvatar17.svg",
+          "name": "Jocelyn Westervelt",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 18,
+          "count": 18,
+          "avatar": "/images/rankingsAvatar18.svg",
+          "name": "Marilyn Torff",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 19,
+          "count": 19,
+          "avatar": "/images/rankingsAvatar19.svg",
+          "name": "Skylar Levin",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        },
+        {
+          "id": 20,
+          "count": 20,
+          "avatar": "/images/rankingsAvatar20.svg",
+          "name": "Terry Dorwart",
+          "percent": "+1.41%",
+          "sold": 602,
+          "volume": 12.4
+        }
+      ]
+    }
+  ],
+  "artist_page": [
+    {
+      "id": 1,
+      "k": "250k",
+      "title": "Volume"
+    },
+    {
+      "id": 2,
+      "k": "50+",
+      "title": "NFTs Sold"
+    },
+    {
+      "id": 3,
+      "k": "3000+",
+      "title": "Followers"
+    }
+  ],
+
+  "artist_page2": [
+    {
+      "value": "1",
+      "label": "Created",
+      "desc": [
+        {
+          "id": 1,
+          "images": "/images/discoverMore.svg",
+          "title": "Distant Galaxy",
+          "icons": "/images/icon.svg",
+          "user": "MoonDancer",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.72,
+          "wt": "0.33 wETH  "
+        },
+        {
+          "id": 2,
+          "images": "/images/discoverMore2.svg",
+          "title": "Life On Edena",
+          "icons": "/images/icon2.svg",
+          "user": "NebulaKid",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.81,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 3,
+          "images": "/images/discoverMore3.svg",
+          "title": "AstroFiction",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 4,
+          "images": "/images/artist_page4.svg",
+          "title": "CryptoCity",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 5,
+          "images": "/images/artist_page5.svg",
+          "title": "ColorfulDog 0524",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 6,
+          "images": "/images/artist_page6.svg",
+          "title": "Space Tales",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 7,
+          "images": "/images/artist_page7.svg",
+          "title": "Cherry Blossom Girl 037",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 8,
+          "images": "/images/artist_page8.svg",
+          "title": "Dancing Robots 0987",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 9,
+          "images": "/images/categoryIconBg2.svg",
+          "title": "IceCream Ape ",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        }
+      ]
+    },
+    {
+      "value": "2",
+      "label": "Owned",
+      "desc": [
+        {
+          "id": 1,
+          "images": "/images/discoverMore.svg",
+          "title": "Distant Galaxy",
+          "icons": "/images/icon.svg",
+          "user": "MoonDancer",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.72,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 2,
+          "images": "/images/discoverMore2.svg",
+          "title": "Life On Edena",
+          "icons": "/images/icon2.svg",
+          "user": "NebulaKid",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.81,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 3,
+          "images": "/images/discoverMore3.svg",
+          "title": "AstroFiction",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 4,
+          "images": "/images/artist_page4.svg",
+          "title": "CryptoCity",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 5,
+          "images": "/images/artist_page5.svg",
+          "title": "ColorfulDog 0524",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 6,
+          "images": "/images/artist_page6.svg",
+          "title": "Space Tales",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 7,
+          "images": "/images/artist_page7.svg",
+          "title": "Cherry Blossom Girl 037",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 8,
+          "images": "/images/artist_page8.svg",
+          "title": "Dancing Robots 0987",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 9,
+          "images": "/images/categoryIconBg2.svg",
+          "title": "IceCream Ape ",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        }
+      ]
+    },
+    {
+      "value": "3",
+      "label": "Collection",
+      "desc": [
+        {
+          "id": 1,
+          "images": "/images/discoverMore.svg",
+          "title": "Distant Galaxy",
+          "icons": "/images/icon.svg",
+          "user": "MoonDancer",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.72,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 2,
+          "images": "/images/discoverMore2.svg",
+          "title": "Life On Edena",
+          "icons": "/images/icon2.svg",
+          "user": "NebulaKid",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.81,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 3,
+          "images": "/images/discoverMore3.svg",
+          "title": "AstroFiction",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 4,
+          "images": "/images/artist_page4.svg",
+          "title": "CryptoCity",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 5,
+          "images": "/images/artist_page5.svg",
+          "title": "ColorfulDog 0524",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 6,
+          "images": "/images/artist_page6.svg",
+          "title": "Space Tales",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 7,
+          "images": "/images/artist_page7.svg",
+          "title": "Cherry Blossom Girl 037",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 8,
+          "images": "/images/artist_page8.svg",
+          "title": "Dancing Robots 0987",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        },
+        {
+          "id": 9,
+          "images": "/images/categoryIconBg2.svg",
+          "title": "IceCream Ape ",
+          "icons": "/images/icon3.svg",
+          "user": "Spaceone",
+          "wordPrice": "Price",
+          "rates": "Highest Bid",
+          "price": 1.63,
+          "wt": "0.33 wETH"
+        }
+      ]
+    }
+  ],
+
+  "connect_wallet": [
+    {
+      "id": 1,
+      "avatar": "/images/metamask.svg",
+      "title": "Metamask"
+    },
+    {
+      "id": 2,
+      "avatar": "/images/walletConnect.svg",
+      "title": "Wallet Connect"
+    },
+    {
+      "id": 3,
+      "avatar": "/images/coinbase.svg",
+      "title": "Coinbase"
+    }
+  ],
+
+  "market_Please": [
+    {
+      "value": "1",
+      "label": "NFTs",
+      "desc": [
+        {
+          "id": 1,
+          "images": "/images/market_PleaseImages.svg",
+          "title": "Magic Mushroom 0325",
+          "avatar": "/images/avatarMarketplease.svg",
+          "name": "Shroomie",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 2,
+          "images": "/images/market_PleaseImages2.svg",
+          "title": "Happy Robot 032",
+          "avatar": "/images/avatarMarketplease2.svg",
+          "name": "BeKind2Robots",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 3,
+          "images": "/images/market_PleaseImages3.svg",
+          "title": "Happy Robot 024",
+          "avatar": "/images/avatarMarketplease2.svg",
+          "name": "BeKind2Robots",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 4,
+          "images": "/images/market_PleaseImages4.svg",
+          "title": "Designer Bear",
+          "avatar": "/images/avatarMarketplease4.svg",
+          "name": "Mr Fox",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 5,
+          "images": "/images/market_PleaseImages5.svg",
+          "title": "Colorful Dog 0356",
+          "avatar": "/images/avatarMarketplease5.svg",
+          "name": "Keepitreal",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 6,
+          "images": "/images/market_PleaseImages6.svg",
+          "title": "Dancing Robot 0312",
+          "avatar": "/images/avatarMarketplease6.svg",
+          "name": "Robotica",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 7,
+          "images": "/images/market_PleaseImages7.svg",
+          "title": "Cherry Blossom Girl 035",
+          "avatar": "/images/avatarMarketplease7.svg",
+          "name": "MoonDancer",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 8,
+          "images": "/images/market_PleaseImages8.svg",
+          "title": "Space Travel",
+          "avatar": "/images/avatarMarketplease8.svg",
+          "name": "NebulaKid",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 9,
+          "images": "/images/market_PleaseImages9.svg",
+          "title": "Sunset Dimension",
+          "avatar": "/images/avatarMarketplease9.svg",
+          "name": "Animakid",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 10,
+          "images": "/images/market_PleaseImages10.svg",
+          "title": "Desert Walk",
+          "avatar": "/images/avatarMarketplease10.svg",
+          "name": "Catch 22",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 11,
+          "images": "/images/market_PleaseImages11.svg",
+          "title": "IceCream Ape 0324",
+          "avatar": "/images/avatarMarketplease11.svg",
+          "name": "Ice Ape Club",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 12,
+          "images": "/images/market_PleaseImages12.svg",
+          "title": "Colorful Dog 0344",
+          "avatar": "/images/avatarMarketplease12.svg",
+          "name": "PuppyPower",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        }
+      ]
+    },
+    {
+      "value": "2",
+      "label": "Collections",
+      "desc": [
+        {
+          "id": 1,
+          "images": "/images/market_PleaseImages.svg",
+          "title": "Magic Mushroom 0325",
+          "avatar": "/images/avatarMarketplease.svg",
+          "name": "Shroomie",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 2,
+          "images": "/images/market_PleaseImages2.svg",
+          "title": "Happy Robot 032",
+          "avatar": "/images/avatarMarketplease2.svg",
+          "name": "BeKind2Robots",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 3,
+          "images": "/images/market_PleaseImages3.svg",
+          "title": "Happy Robot 024",
+          "avatar": "/images/avatarMarketplease2.svg",
+          "name": "BeKind2Robots",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 4,
+          "images": "/images/market_PleaseImages4.svg",
+          "title": "Designer Bear",
+          "avatar": "/images/avatarMarketplease4.svg",
+          "name": "Mr Fox",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 5,
+          "images": "/images/market_PleaseImages5.svg",
+          "title": "Colorful Dog 0356",
+          "avatar": "/images/avatarMarketplease5.svg",
+          "name": "Keepitreal",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 6,
+          "images": "/images/market_PleaseImages6.svg",
+          "title": "Dancing Robot 0312",
+          "avatar": "/images/avatarMarketplease6.svg",
+          "name": "Robotica",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 7,
+          "images": "/images/market_PleaseImages7.svg",
+          "title": "Cherry Blossom Girl 035",
+          "avatar": "/images/avatarMarketplease7.svg",
+          "name": "MoonDancer",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 8,
+          "images": "/images/market_PleaseImages8.svg",
+          "title": "Space Travel",
+          "avatar": "/images/avatarMarketplease8.svg",
+          "name": "NebulaKid",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 9,
+          "images": "/images/market_PleaseImages9.svg",
+          "title": "Sunset Dimension",
+          "avatar": "/images/avatarMarketplease9.svg",
+          "name": "Animakid",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 10,
+          "images": "/images/market_PleaseImages10.svg",
+          "title": "Desert Walk",
+          "avatar": "/images/avatarMarketplease10.svg",
+          "name": "Catch 22",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 11,
+          "images": "/images/market_PleaseImages11.svg",
+          "title": "IceCream Ape 0324",
+          "avatar": "/images/avatarMarketplease11.svg",
+          "name": "Ice Ape Club",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        },
+        {
+          "id": 12,
+          "images": "/images/market_PleaseImages12.svg",
+          "title": "Colorful Dog 0344",
+          "avatar": "/images/avatarMarketplease12.svg",
+          "name": "PuppyPower",
+          "simple_word": "Price",
+          "rate": "Highest Bid",
+          "price": 1.63,
+          "weth": 0.33
+        }
+      ]
+    }
+  ],
+  "nft_Page": [
+    {
+      "id": 1,
+      "images": "/images/nft.svg",
+      "title": "Distant Galaxy",
+      "icons": "/images/icon.svg",
+      "user": "MoonDancer",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.72,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 2,
+      "images": "/images/nft2.svg",
+      "title": "Life On Edena",
+      "icons": "/images/icon2.svg",
+      "user": "NebulaKid",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.81,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 3,
+      "images": "/images/nft3.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 4,
+      "images": "/images/nft4.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 5,
+      "images": "/images/nft5.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 6,
+      "images": "/images/artist_page8.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 7,
+      "images": "/images/nft7.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 8,
+      "images": "/images/nft8.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    },
+    {
+      "id": 9,
+      "images": "/images/nft9.svg",
+      "title": "AstroFiction",
+      "icons": "/images/icon3.svg",
+      "user": "Spaceone",
+      "wordPrice": "Price",
+      "rates": "Highest Bid",
+      "price": 1.63,
+      "wt": "0.33 wETH"
+    }
+  ]
 }
